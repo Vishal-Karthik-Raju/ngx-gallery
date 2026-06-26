@@ -35,4 +35,4 @@ deploy:
   edge: true
   on:
     tags: true
-    repo: kolkov/ngx-gallery
+    repo: digit/ngx-gallery
