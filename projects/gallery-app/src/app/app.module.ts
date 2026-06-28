@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {NgxGalleryModule} from '@digit1/ngx-gallery';
+import {NgxGalleryModule} from '@vishal/ngx-gallery';
 
 
 @NgModule({

@@ -1,11 +1,11 @@
 # NgxGallery
-A simple native gallery component for Angular 8+ and 13+.
+A simple native gallery component for Angular 21+.
 
 [![npm version](https://badge.fury.io/js/%40digit%2Fngx-gallery.svg)](https://badge.fury.io/js/%40digit%2Fngx-gallery)
 [![demo](https://img.shields.io/badge/demo-StackBlitz-blueviolet.svg)](https://stackblitz.com/edit/digit-ngx-gallery)
 [![Build Status](https://travis-ci.com/digit/ngx-gallery.svg?branch=master)](https://travis-ci.com/digit/ngx-gallery)
-[![npm](https://img.shields.io/npm/dw/@digit1/ngx-gallery.svg)](https://www.npmjs.com/package/@digit1/ngx-gallery)
-[![](https://data.jsdelivr.com/v1/package/npm/@digit1/ngx-gallery/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@digit1/ngx-gallery)
+[![npm](https://img.shields.io/npm/dw/@vishal/ngx-gallery.svg)](https://www.npmjs.com/package/@vishal/ngx-gallery)
+[![](https://data.jsdelivr.com/v1/package/npm/@vishal/ngx-gallery/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@vishal/ngx-gallery)
 [![Coverage Status](https://coveralls.io/repos/github/digit/ngx-gallery/badge.svg?branch=master)](https://coveralls.io/github/digit/ngx-gallery?branch=master)
 [![dependencies Status](https://david-dm.org/digit/ngx-gallery/status.svg)](https://david-dm.org/digit/ngx-gallery)
 [![devDependencies Status](https://david-dm.org/digit/ngx-gallery/dev-status.svg)](https://david-dm.org/digit/ngx-gallery?type=dev)
@@ -24,7 +24,7 @@ Working code for this demo at stackblitz [example](https://stackblitz.com/edit/d
 Install via [npm][npm] package manager 
 
 ```bash
-npm install @digit1/ngx-gallery --save
+npm install @vishal/ngx-gallery --save
 ```
 ### Versions
 
@@ -37,7 +37,7 @@ Import `ngx-gallery` module
 
 ```js
 import { HttpClientModule} from '@angular/common/http';
-import { NgxGalleryModule } from '@digit1/ngx-gallery';
+import { NgxGalleryModule } from '@vishal/ngx-gallery';
 
 @NgModule({
   imports: [ HttpClientModule, NgxGalleryModule ]
@@ -54,9 +54,9 @@ where
 
 ```
 import {Component, OnInit} from '@angular/core';
-import {NgxGalleryOptions} from '@digit1/ngx-gallery';
-import {NgxGalleryImage} from '@digit1/ngx-gallery';
-import {NgxGalleryAnimation} from '@digit1/ngx-gallery';
+import {NgxGalleryOptions} from '@vishal/ngx-gallery';
+import {NgxGalleryImage} from '@vishal/ngx-gallery';
+import {NgxGalleryAnimation} from '@vishal/ngx-gallery';
 
 @Component({
   selector: 'app-root',

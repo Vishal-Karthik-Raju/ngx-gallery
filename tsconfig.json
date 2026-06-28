@@ -20,10 +20,10 @@
       "node_modules/@types"
     ],
     "paths": {
-      "@digit1/ngx-gallery": [
+      "@vishal/ngx-gallery": [
         "dist/gallery"
       ],
-      "@digit1/ngx-gallery/*": [
+      "@vishal/ngx-gallery/*": [
         "dist/gallery/*"
       ]
     },
