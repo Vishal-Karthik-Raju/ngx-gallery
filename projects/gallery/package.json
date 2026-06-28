@@ -1,6 +1,6 @@
 {
   "name": "@vishalkr/ngx-gallery",
-  "version": "21.0.0",
+  "version": "21.0.1",
   "description": "A simple responsive native gallery component for Angular 21+.",
   "author": "Andrey Kolkov <a.kolkov@gmail.com>",
   "repository": "https://github.com/Vishal-Karthik-Raju/ngx-gallery",
@@ -13,6 +13,17 @@
     "@angular/common": ">=21.0.0 <22",
     "@angular/core": ">=21.0.0 <22",
     "@angular/animations": ">=21.0.0 <22"
+  },
+  "peerDependenciesMeta": {
+    "@angular/animations": {
+      "optional": true
+    },
+    "@angular/common": {
+      "optional": true
+    },
+    "@angular/core": {
+      "optional": true
+    }
   },
   "dependencies": {
     "tslib": "^2.3.0"
