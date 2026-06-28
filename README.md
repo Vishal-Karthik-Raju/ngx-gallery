@@ -28,8 +28,7 @@ npm install @vishal/ngx-gallery --save
 ```
 ### Versions
 
-2.x.x and above - for Angular v13+
-1.x.x and above - for Angular v8+
+21.x.x and above - for Angular v21+
 
 ### Usage
 
