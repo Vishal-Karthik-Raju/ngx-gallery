@@ -1,21 +1,21 @@
 # NgxGallery
 A simple native gallery component for Angular 21+.
 
-[![npm version](https://badge.fury.io/js/%40digit%2Fngx-gallery.svg)](https://badge.fury.io/js/%40digit%2Fngx-gallery)
-[![demo](https://img.shields.io/badge/demo-StackBlitz-blueviolet.svg)](https://stackblitz.com/edit/digit-ngx-gallery)
-[![Build Status](https://travis-ci.com/digit/ngx-gallery.svg?branch=master)](https://travis-ci.com/digit/ngx-gallery)
+[![npm version](https://badge.fury.io/js/%40vishal%2Fngx-gallery.svg)](https://badge.fury.io/js/%40vishal%2Fngx-gallery)
+[![demo](https://img.shields.io/badge/demo-StackBlitz-blueviolet.svg)](https://stackblitz.com/edit/vishal-ngx-gallery)
+[![Build Status](https://travis-ci.com/vishal/ngx-gallery.svg?branch=master)](https://travis-ci.com/vishal/ngx-gallery)
 [![npm](https://img.shields.io/npm/dw/@vishal/ngx-gallery.svg)](https://www.npmjs.com/package/@vishal/ngx-gallery)
 [![](https://data.jsdelivr.com/v1/package/npm/@vishal/ngx-gallery/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@vishal/ngx-gallery)
-[![Coverage Status](https://coveralls.io/repos/github/digit/ngx-gallery/badge.svg?branch=master)](https://coveralls.io/github/digit/ngx-gallery?branch=master)
-[![dependencies Status](https://david-dm.org/digit/ngx-gallery/status.svg)](https://david-dm.org/digit/ngx-gallery)
-[![devDependencies Status](https://david-dm.org/digit/ngx-gallery/dev-status.svg)](https://david-dm.org/digit/ngx-gallery?type=dev)
-[![codecov](https://codecov.io/gh/digit/ngx-gallery/branch/master/graph/badge.svg)](https://codecov.io/gh/digit/ngx-gallery)
+[![Coverage Status](https://coveralls.io/repos/github/vishal/ngx-gallery/badge.svg?branch=master)](https://coveralls.io/github/vishal/ngx-gallery?branch=master)
+[![dependencies Status](https://david-dm.org/vishal/ngx-gallery/status.svg)](https://david-dm.org/vishal/ngx-gallery)
+[![devDependencies Status](https://david-dm.org/vishal/ngx-gallery/dev-status.svg)](https://david-dm.org/vishal/ngx-gallery?type=dev)
+[![codecov](https://codecov.io/gh/vishal/ngx-gallery/branch/master/graph/badge.svg)](https://codecov.io/gh/vishal/ngx-gallery)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/AndreyKolkov)
 
 ## Demo
 Demo is here [demo][demo]
 
-Working code for this demo at stackblitz [example](https://stackblitz.com/edit/digit-ngx-gallery)
+Working code for this demo at stackblitz [example](https://stackblitz.com/edit/vishal-ngx-gallery)
 
 ## Getting Started
 
