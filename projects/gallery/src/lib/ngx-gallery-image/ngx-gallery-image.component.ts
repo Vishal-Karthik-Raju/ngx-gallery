@@ -84,7 +84,7 @@ export class NgxGalleryImageComponent implements OnInit, OnChanges {
   @Input() images: NgxGalleryOrderedImage[];
   @Input() clickable: boolean;
   // eslint-disable-next-line @typescript-eslint/naming-convention, no-underscore-dangle, id-blacklist, id-match
-  _selectedIndex;
+  _selectedIndex = 0;
   @Input()
   set selectedIndex(index: number) {
     if (index > this._selectedIndex) {

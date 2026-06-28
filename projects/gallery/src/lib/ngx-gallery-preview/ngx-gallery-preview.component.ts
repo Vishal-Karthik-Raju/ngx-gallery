@@ -158,15 +158,19 @@ export class NgxGalleryPreviewComponent implements OnInit, OnDestroy, OnChanges 
 
   close(): void {
     this.isOpen = false;
-    const video = this.previewImage.nativeElement;
-    if (
-      video.currentTime > 0 &&
-      !video.paused &&
-      !video.ended &&
-      video.readyState > 2
-    ) {
-      video.pause();
+
+    if (this.previewImage && this.previewImage.nativeElement && this.type === 'video') {
+      const video = this.previewImage.nativeElement as HTMLVideoElement;
+      if (
+        video.currentTime > 0 &&
+        !video.paused &&
+        !video.ended &&
+        video.readyState > 2
+      ) {
+        video.pause();
+      }
     }
+
     this.closeFullscreen();
     this.previewClose.emit();
 
@@ -442,14 +446,18 @@ export class NgxGalleryPreviewComponent implements OnInit, OnDestroy, OnChanges 
     this.changeDetectorRef.markForCheck();
 
     setTimeout(() => {
-      if (this.isLoaded(this.previewImage.nativeElement) || this.type === 'video') {
+      if (this.type === 'video') {
+        // For videos, mark as loaded immediately — readiness is handled by the browser
         this.loading = false;
         this.startAutoPlay();
         this.changeDetectorRef.markForCheck();
-      } else if (this.type === 'video') {
-
-      }
-      else {
+      } else if (this.isLoaded(this.previewImage.nativeElement)) {
+        // Image already cached and loaded
+        this.loading = false;
+        this.startAutoPlay();
+        this.changeDetectorRef.markForCheck();
+      } else {
+        // Image not yet loaded — show spinner and wait for onload
         setTimeout(() => {
           if (this.loading) {
             this.showSpinner = true;
