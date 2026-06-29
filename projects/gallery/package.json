@@ -1,6 +1,6 @@
 {
   "name": "@vishalkr/ngx-gallery",
-  "version": "21.0.1",
+  "version": "21.0.2",
   "description": "A simple responsive native gallery component for Angular 21+.",
   "author": "Andrey Kolkov <a.kolkov@gmail.com>",
   "repository": "https://github.com/Vishal-Karthik-Raju/ngx-gallery",
