@@ -10,7 +10,7 @@ A simple native gallery component for Angular 21+.
 [![dependencies Status](https://david-dm.org/vishal/ngx-gallery/status.svg)](https://david-dm.org/vishal/ngx-gallery)
 [![devDependencies Status](https://david-dm.org/vishal/ngx-gallery/dev-status.svg)](https://david-dm.org/vishal/ngx-gallery?type=dev)
 [![codecov](https://codecov.io/gh/vishal/ngx-gallery/branch/master/graph/badge.svg)](https://codecov.io/gh/vishal/ngx-gallery)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/AndreyKolkov)
+<!-- [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/AndreyKolkov) -->
 
 ## Demo
 Demo is here [demo][demo]
@@ -303,30 +303,30 @@ ngx-gallery/
 
 ## Contributing
 
-Please read through our [contributing guidelines](https://github.com/kolkov/ngx-gallery/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/Vishal-Karthik-Raju/ngx-gallery/blob/main/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-Editor preferences are available in the [editor config](https://github.com/kolkov/ngx-gallery/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
+Editor preferences are available in the [editor config](https://github.com/Vishal-Karthik-Raju/ngx-gallery/blob/main/.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
 
 ## Versioning
 
 For transparency into our release cycle and in striving to maintain backward compatibility, NgxGallery is maintained under [the Semantic Versioning guidelines](http://semver.org/).
 
-See [the Releases section of our project](https://github.com/kolkov/ngx-gallery/releases) for changelogs for each release version.
+See [the Releases section of our project](https://github.com/Vishal-Karthik-Raju/ngx-gallery/releases) for changelogs for each release version.
 
 ## Creators
 
-**Andrey Kolkov**
+**Vishal-Karthik-Raju**
 
-* <https://github.com/kolkov>
+* <https://github.com/Vishal-Karthik-Raju
 
 ## Credits
 
 This library is being fully rewritten for next Angular versions from original abandoned library written by Łukasz Gałka. I maintained full compatibility with the original library at the api level.
 <https://github.com/lukasz-galka/ngx-gallery>
 
-## Donate
+<!-- ## Donate
 
-If you like my work, and I save your time you can buy me a :beer: or :pizza: [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/AndreyKolkov)
+If you like my work, and I save your time you can buy me a :beer: or :pizza: [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/AndreyKolkov) -->
 
 [npm]: https://www.npmjs.com/
 [demo]: https://kolkov-ngx-gallery.stackblitz.io/
